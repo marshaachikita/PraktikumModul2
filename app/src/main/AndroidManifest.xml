@@ -2,19 +2,48 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.d3ifcool.praktikummodul2">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@mipmap/carkos"
+        android:label="Mobpro Lanjut"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".UtamaActivity"
+            android:label="carKOS"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="Menu Login" />
+
+        <activity
+            android:name=".MenuUtamaActivity"
+            android:label="Menu Utama" />
+
+        <activity android:name=".PesanActivity" />
+
+        <activity
+            android:name=".ChatActivity"
+            android:label="Chat Room" />
+
+        <activity
+            android:name=".InputDataKos"
+            android:label="Input Data Kos" />
+
+        <activity android:name=".BookingActivity" />
+
+        <activity android:name=".UserProfileActivity"></activity>
     </application>
 
 </manifest>

@@ -1,3 +1,52 @@
 <resources>
-    <string name="app_name">PraktikumModul2</string>
+    <string name="app_name">TUBES</string>
+    <string name="deskripsi">
+        Kos \t : Putri \n
+        Fasilitas Kamar \t :  AC, TV \n
+        Harga Sewa \t : Rp.5000000 \n
+        Kamar Mandi \t: Kamar mandi dalam, Kloset jongkok, Ember
+    </string>
+
+    <string name="mNamaKost"> Nama Kost </string>
+    <string name="mLokasiKost"> Lokasi </string>
+    <string name="mHargaKost"> Harga Sewa </string>
+    <string name="mKategori"> Cewek </string>
+    <string name="btnHubungiPemilik"> Hubungi Pemilik </string>
+    <string name="btnPesan"> Pesan Kamar </string>
+    <string name="mPemilik"> Nama Pemilik Kos </string>
+    <string name="splashText"> carKOS </string>
+    <string name="loginTitle"> Login Akun </string>
+    <string name="loginUser"> Username </string>
+    <string name="loginPass"> Password </string>
+    <string name="loginButton"> Masuk </string>
+    <string name="loginText"> Tidak memiliki akun? </string>
+    <string name="loginRegister"> Register </string>
+    <string name="formTitle"> FORM BUAT AKUN </string>
+    <string name="formAkses"> Akses </string>
+    <string name="formEmail"> Email </string>
+    <string name="formUser"> Username </string>
+    <string name="formPass"> Password </string>
+    <string name="formConfirmPass"> Confirm Password </string>
+    <string name="formNama"> Nama </string>
+    <string name="formButton"> BUAT AKUN </string>
+    <string name="chatButton"> SEND </string>
+    <string name="chatEdit"> Tuliskan Pesan </string>
+    <string name="batununggal"> Batununggal </string>
+    <string name="ketKamar"> Tersedia Kamar Kosong </string>
+    <string name="action_save"> Save </string>
+    <string name="action_cancel"> Cancel </string>
+    <string name="action_delete"> Delete All </string>
+    <string name="inputKos"> Input Kos </string>
+    <string name="delete_dialog_msg">Hapus data yang dipilih?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_utama">UtamaActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="loading">Loading...</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_nav_drawer">NavDrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>
