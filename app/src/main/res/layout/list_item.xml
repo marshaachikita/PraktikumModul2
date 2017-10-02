@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/selector_item">
+
+    <ImageView
+        android:id="@+id/gambar_kost"
+        android:layout_width="130dp"
+        android:layout_height="90dp"
+        android:src="@drawable/kosan"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nama_kost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="@string/mNamaKost"/>
+
+        <TextView
+            android:id="@+id/lokasi_kos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:textSize="14sp"
+            tools:text="@string/mLokasiKost" />
+
+
+        <TextView
+            android:id="@+id/harga_kos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:textSize="14sp"
+            tools:text="@string/mHargaKost" />
+
+        <TextView
+            android:id="@+id/kategori_kos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:textSize="14sp"
+            android:textColor="@android:color/white"
+            android:background="#D81B60"
+            tools:text="@string/mKategori"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

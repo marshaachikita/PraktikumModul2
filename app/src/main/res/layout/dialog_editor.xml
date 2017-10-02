@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_nama"
+        android:hint="Nama"
+        android:inputType="textCapWords"
+        style="@style/EditorFieldStyle" />
+
+    <EditText
+        android:id="@+id/edit_lokasi"
+        android:hint="Lokasi"
+        android:inputType="textCapWords"
+        style="@style/EditorFieldStyle" />
+
+    <EditText
+        android:id="@+id/edit_harga"
+        android:hint="Harga"
+        android:inputType="textCapWords"
+        style="@style/EditorFieldStyle" />
+
+    <EditText
+        android:id="@+id/edit_kategori"
+        android:hint="Putra/Putri"
+        android:inputType="textCapWords"
+        style="@style/EditorFieldStyle" />
+
+    <EditText
+        android:id="@+id/edit_kamarkosong"
+        android:hint="Jumlah"
+        android:inputType="textCapWords"
+        style="@style/EditorFieldStyle" />
+
+    <EditText
+        android:id="@+id/edit_fasilitas"
+        android:hint="Fasilitas"
+        android:inputType="textCapWords"
+        style="@style/EditorFieldStyle" />
+
+</LinearLayout>

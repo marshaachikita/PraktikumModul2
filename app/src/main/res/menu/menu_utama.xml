@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.d3ifcool.praktikummodul2.UtamaActivity">
+
+    <item
+        android:id="@+id/menu_profile"
+        android:title="Profile"
+        />
+
+    <item
+        android:id="@+id/menu_logout"
+        android:title="Logout" />
+
+</menu>
